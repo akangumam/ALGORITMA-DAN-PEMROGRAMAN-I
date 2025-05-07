@@ -32,11 +32,6 @@ int main()
 
     // Output hasil penjumlahan
     cout << "Hasil Penjumlahan a dan b : " << hasil << endl;
-    
-
-    // Output nama dan kode dosen
-     cout << "Nama: "<< nama << endl;
-     cout << "nim: " << nim << endl;
 
     return 0;
 }
