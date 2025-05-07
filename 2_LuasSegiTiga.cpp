@@ -4,6 +4,17 @@ using namespace std;
 
 main ()
 {
+    // Identitas
+    char nama[] = "Khaerul Umam";
+    char nim[] = "241011450666";
+
+    // Tampilkan identitas
+    cout << "==============================" << endl;
+    cout << "Nama : " << nama << endl;
+    cout << "NIM  : " << nim << endl;
+    cout << "Program : Luas Segi Tiga" << endl;
+    cout << "==============================" << endl << endl;
+    
     // Deklarasi Variabel
     int alas, tinggi;
     double luas;
