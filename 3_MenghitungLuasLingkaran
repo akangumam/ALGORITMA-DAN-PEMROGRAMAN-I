@@ -1,0 +1,40 @@
+    #include <iostream>
+#include <iomanip> // untuk setprecision
+using namespace std;
+
+int main() {
+	// Identitas
+    char nama[] = "Khaerul Umam";
+    char nim[] = "241011450666";
+
+    // Tampilkan identitas
+    cout << "==============================" << endl;
+    cout << "Nama : " << nama << endl;
+    cout << "NIM  : " << nim << endl;
+    cout << "Program : Menghitung Luas Lingkaran" << endl;
+    cout << "==============================" << endl << endl;
+
+    // Variabel
+    const float phi = 3.14f;
+    float r, luas;
+
+    // Tampilkan contoh soal terlebih dahulu
+    cout << "======================================" << endl;
+    cout << "Contoh Soal:" << endl;
+    cout << "Diketahui sebuah lingkaran memiliki jari-jari." << endl;
+    cout << "Hitunglah luas lingkaran tersebut!" << endl;
+    cout << "======================================" << endl;
+
+    // Input dari pengguna
+    cout << "\nMasukkan jari-jari lingkaran (dalam cm): ";
+    cin >> r;
+
+    // Hitung luas
+    luas = phi * r * r;
+
+    // Tampilkan hasil dengan 2 angka desimal
+    cout << fixed << setprecision(2);
+    cout << "\nLuas lingkaran dengan jari-jari " << r << " cm adalah: " << luas << " cm^2" << endl;
+
+    return 0;
+}
