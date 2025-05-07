@@ -9,7 +9,7 @@ int main() {
     luas = phi * r * r;
 
     // Langkah 3: Cetak hasil
-    cout << "Luas lingkaran dengan jari-jari 7 cm adalah: " << luas << " cm²" << endl;
+    cout << "Luas lingkaran dengan jari-jari 7 cm adalah: " << luas << " cmÂ²" << endl;
 
     return 0;
 }
