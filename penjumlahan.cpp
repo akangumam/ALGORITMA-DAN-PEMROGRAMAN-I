@@ -4,9 +4,19 @@ using namespace std;
 
 int main() 
 {
-	char nama[ ]     = "Khaerul Umam";
+	// Identitas
+    char nama[] = "Khaerul Umam";
     char nim[] = "241011450666";
 
+    // Tampilkan identitas
+    cout << "==============================" << endl;
+    cout << "Nama : " << nama << endl;
+    cout << "NIM  : " << nim << endl;
+    cout << "Program : Penjumlahan" << endl;
+    cout << "==============================" << endl << endl;
+
+    // Variabel
+	
     int a, b, hasil;
 
     // Input angka pertama
